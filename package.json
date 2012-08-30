@@ -1,0 +1,13 @@
+{
+  "name": "buster_js_test"
+  , "version": "1.0.1"
+  , "scripts": { "test": "node_modules/.bin/nodeunit tests/*" }
+
+  , "description": "Test using Buster.js"
+  , "author": "Uni Bonn Agile Lab - Sponsored by Mr. FooBar :-)"
+  , "homepage": "https://github.com/geoquest"
+  , "contributors": [ "Pascal Bihler" ]
+  , "dependencies": {
+      "buster": ">= 0.6.2"
+	}
+}

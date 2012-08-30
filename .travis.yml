@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - 0.8
+before_script:
+  - ./node_modules/.bin/buster-server &
+  - sleep 3 # give Web server some time to bind to sockets, etc
+  - /usr/local/bin/phantomjs ./node_modules/buster/script/phantom.js &
